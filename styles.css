@@ -7,11 +7,12 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     background-color: transparent;
     padding: 10px;
 }
+
 
 .navbar a {
     color: white;
@@ -32,7 +33,6 @@ body {
     border-radius: 10px;
     background-color: transparent;
     color: white;
-
     border: 5px solid white;
     padding: 10px 20px;
     text-align: center;
@@ -62,12 +62,22 @@ pre {
 }
 
 @media screen and (max-width: 500px) {
+    .buy-button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
     pre {
         zoom: 0.5;
         /* width: 80%; */
         background-color: #333;
         color: white;
     }
+
+    .navbar img {
+        width: 250px;
+    }
+
 }
 
 
@@ -89,7 +99,11 @@ iframe {
 .bottom-links a {
     color: white;
     text-decoration: none;
-    background-color: #333;
+    /* background-color: #333; */
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
     padding: 20px;
 }
 
