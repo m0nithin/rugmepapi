@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .navbar {
@@ -47,16 +47,36 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    /* padding: 20px; */
     background-color: transparent;
     border: none;
 }
 
+pre {
+    /* zoom: 0.5; */
+    /* width: 80%; */
+    background-color: #333;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    pre {
+        zoom: 0.5;
+        /* width: 80%; */
+        background-color: #333;
+        color: white;
+    }
+}
+
+
 iframe {
     width: 80%;
     height: 80vh;
+    /* transform: scale(0.5); */
     border: none;
-    white-space: pre;
+    /* white-space: pre; */
+    /* zoom: 0.3; */
 }
 
 .bottom-links {
